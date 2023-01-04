@@ -2,6 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
+  background-color: #26272b;
+  color: #f4f4f4;
+}
+
+a {
+  color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+}
+
+@media screen and (max-width: 767px) {
+  td, th {
+    padding: 3px;
+  }
 }
